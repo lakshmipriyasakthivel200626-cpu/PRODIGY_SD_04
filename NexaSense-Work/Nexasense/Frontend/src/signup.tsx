@@ -1,6 +1,5 @@
-import { auth } from "../firebase";
 import React, { useState } from "react";
-
+import { auth } from "../firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 
 const Signup: React.FC = () => {
@@ -54,4 +53,3 @@ const Signup: React.FC = () => {
 };
 
 export default Signup;
-

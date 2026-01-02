@@ -1,6 +1,7 @@
 // Login.tsx
+import { auth } from "../firebase"; 
 import React, { useState } from "react";
-import { auth } from "../firebase"; // make sure this path is correct
+// make sure this path is correct
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom"; // if you want to redirect
 
